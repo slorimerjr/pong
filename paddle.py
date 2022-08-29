@@ -8,6 +8,7 @@ class Paddle(Turtle):
         super().__init__()
         self.shape("square")
         self.color("white")
+        # paddle size is wid=100, len=20
         self.shapesize(stretch_wid=5, stretch_len=1)
         self.penup()
         self.goto(position)
